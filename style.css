@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    height: 70px;
+    background-color: #ec715f;
+    
+}
+
+.page-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container{
+    width: 1024px;
+    margin: 0 auto;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+.header-image{
+    width: 150px;
+    height: 70px;
+    
+}
+
+.nav-list{
+  list-style: none;
+  padding: 0 30px;
+  font-size: 16px;
+  color: #fafafa;
+   display: inline-block;
+   line-height: 70px;
+}
+
+.main-visual{
+    width: 100%;
+    height: 650px;
+    background-image: url(img/mv.png);
+    background-size: cover;
+  background-position: center;
+    
+}
+
+.main-visual-content{
+    text-align: center;
+}
+
+.main-visual-text{
+   font-size: 64px;
+   padding-top: 200px;
+   color: #fff;
+    
+}
+
+.main-visual-name{
+    font-size: 20px;
+    padding-top: 10px;
+    color: #fff;
+    
+}
+
+
+.page-portfolio{
+    background-color: #eceff1;
+
+}
+.contents-box{
+    width: 1024px;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 90px;
+}
+
+.title{
+    padding: 90px;
+    font-size: 32px;
+    color: #000000;
+    padding-bottom: 8px;
+    
+}
+
+.title::after {
+    content: "";
+    display: block;
+    width: 70px;
+    height: 3px;
+    margin: 8px auto 0 auto;
+    background-color: #EC715F;
+}
+
+
+.header-text{
+    padding: 30px 0;
+    font-size: 16px;
+    color: #000000;
+}
+
+.portfolio-image{
+    width: 920px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    
+ }
+ 
+ .production {
+    width: 300px;
+    height: 250px;
+    margin: 10px 10px 0 0;
+    background-size: cover;
+    background-position: center;
+}
+ 
+ .box1:nth-child(1) {
+  background-image: url(img/sketch.jpg)
+ 
+  
+ }
+
+ .box2:nth-child(2) {
+  
+  background-image: url(img/websuku.png);
+ 
+ }
+
+ .box3:nth-child(3) {
+ 
+  background-image: url(img/write.jpg);
+  
+ }
+
+ .box4:nth-child(4) {
+ 
+  background-image: url(img/webcamp.png);
+  
+ }
+
+ .box5:nth-child(5) {
+ 
+  background-image: url(img/talk.jpg);
+ 
+  
+ }
+
+ .box6:nth-child(6) {
+ 
+  background-image: url(img/webcamp-mother.png);
+ 
+ }
+
+.strength-contents{
+    display: flex;
+    margin-top: 30px;
+    width: 920px;
+    margin: 0 auto;
+}
+
+.strength-box{
+    width: 320px;
+    text-align: center; 
+    margin-right: 10px;
+    font-size: 60px;
+}
+
+
+.strength-title{
+    font-size: 20px;
+    padding: 10px 0;
+}
+
+.strength-text{
+    text-align: left;
+    font-size: 16px;
+}
+
