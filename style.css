@@ -24,6 +24,7 @@ header{
 
 a{
     text-decoration: none;
+    color: #fafafa;
 }
 
 .header-image{
@@ -36,7 +37,7 @@ a{
   list-style: none;
   padding: 0 30px;
   font-size: 16px;
-  color: #fafafa;
+  
    display: inline-block;
    line-height: 70px;
 }
@@ -68,24 +69,25 @@ a{
     
 }
 
+main{
+    width: 100%;
+}
 
 .page-portfolio{
-    background-color: #eceff1;
-
+   background-color: #eceff1;
 }
-.contents-box{
+
+.container{
     width: 1024px;
     margin: 0 auto;
-    text-align: center;
-    padding-bottom: 90px;
 }
 
 .title{
-    padding: 90px;
+    padding-top: 90px;
     font-size: 32px;
     color: #000000;
     padding-bottom: 8px;
-    
+    text-align: center;
 }
 
 .title::after {
@@ -97,20 +99,21 @@ a{
     background-color: #EC715F;
 }
 
-
 .header-text{
-    padding: 30px 0;
+    padding-top: 30px;
     font-size: 16px;
     color: #000000;
+    text-align: center;
 }
-
-.portfolio-image{
-    width: 920px;
+  
+.portfolio-groupe{
+    width: 980px;
     margin: 0 auto;
+    padding: 30px 0 90px 0;
     display: flex;
     flex-wrap: wrap;
     
- }
+}
  
  .production {
     width: 300px;
@@ -121,47 +124,42 @@ a{
 }
  
  .box1:nth-child(1) {
-  background-image: url(img/sketch.jpg)
- 
-  
+  background-image: url(img/sketch.jpg);
+  margin-top: 0;
  }
 
  .box2:nth-child(2) {
-  
   background-image: url(img/websuku.png);
- 
+  margin-top: 0;
  }
 
  .box3:nth-child(3) {
- 
   background-image: url(img/write.jpg);
-  
+  margin-right: 0;
+  margin-top: 0;
  }
 
  .box4:nth-child(4) {
- 
   background-image: url(img/webcamp.png);
   
  }
 
  .box5:nth-child(5) {
- 
   background-image: url(img/talk.jpg);
  
   
  }
 
  .box6:nth-child(6) {
- 
   background-image: url(img/webcamp-mother.png);
- 
+  margin-right: 0;
  }
 
-.strength-contents{
-    display: flex;
-    margin-top: 30px;
-    width: 920px;
-    margin: 0 auto;
+.strength-groupe{
+ display: flex;
+ padding: 30px 0 90px 0;
+ width: 980px;
+ margin: 0 auto;
 }
 
 .strength-box{
@@ -179,6 +177,40 @@ a{
 
 .strength-text{
     text-align: left;
+    font-size: 15px;
+}
+
+.page-profile{
+   background-color: #eceff1;
+}
+
+.profile-contents{
+    padding: 30px 0 90px 0;
+    display: flex;
+}
+
+.icon-box{
+    width: 512px;
+    text-align: center
+}
+
+.profile-image{
+    width: 250px;
+    height: 250px;
+    background-image: url(img/my-icon.jpg);
+    border-radius: 50%;
+}
+
+.profile-box{
+    width: 512px;
+}
+
+.profile-title{
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+
+.profile-text{
     font-size: 16px;
 }
 
